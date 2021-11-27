@@ -79,6 +79,7 @@ button {
 .nav-link {
     font-weight: 500;
     color: #ffffff;
+    font-size: x-large;
 }
 
 .navbar-toggler {
@@ -89,6 +90,10 @@ button {
 .navbar-toggler:focus {
     outline: none;
     box-shadow: none;
+}
+
+.header-image {
+    width: 55px;
 }
 
 .header-logo {
@@ -247,7 +252,7 @@ Blog
 
 .blog-post {
     position: relative;
-    padding: 40px;
+    padding: 20px;
     margin: 10px 0;
     border: 1px solid rgba(255, 255, 255, 0.5);
     color: #ffffff;
@@ -258,9 +263,11 @@ Blog
     transition: all .2s ease-in-out;
 }
 
-.blog-post h4 {
+.blog-post h4, h5, h6 {
     font-family: 'Merriweather', serif;
+    font-size: 18px;
     line-height: 1.6;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -270,6 +277,10 @@ Blog
     margin-bottom: 40px;
 }
 
+.blog-post .second-p {
+    margin-bottom: 100px;
+}
+
 .blog-post i {
     font-size: 20px;
     margin-left: 10px;
@@ -277,7 +288,7 @@ Blog
 
 .blog-link {
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
 }
 
 .label-tag {
