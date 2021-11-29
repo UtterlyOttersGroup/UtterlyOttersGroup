@@ -30,7 +30,7 @@ a {
     color: #ffffff;
 }
 
-a:hover {
+a:hover, .btn:hover {
     color: #ffffff;
     opacity: .8;
     text-decoration: none;
@@ -123,13 +123,29 @@ button {
     margin-top: 95px;
 }
 
+.card {
+    background-color: #000000;
+    padding: 20px 20px;
+    border-bottom: 1px solid darkgray;
+    border-top: 1px solid darkgray;
+}
+
+.btn {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.btn-link:focus {
+    text-decoration: none;
+}
+
 .faq h3 {
     margin-top: 45px;
     margin-bottom: 25px;
     color: #ffffff;
 }
 
-.faq p {
+.faq p, .card-body {
     font-family: 'Roboto', sans-serif;
     color: darkgray;
 }
