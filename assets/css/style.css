@@ -72,6 +72,18 @@ button {
     display: inline-block;
 }
 
+.template-button2 {
+    position: fixed;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #2d8eff;
+    color: #ffffff;
+    z-index: 9999;
+    bottom: 15px;
+    left: 40px;
+    display: inline-block;
+}
+
 .navbar {
     background-color: #000000;
 }
